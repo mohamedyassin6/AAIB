@@ -1,0 +1,61 @@
+.App {
+  padding: 50px 40px 40px;
+}
+p {
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+a {
+  font-size: 1rem;
+  color: #1175ef;
+  text-decoration: underline;
+  cursor: pointer;
+}
+h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+input[type=button] {
+  padding: 1px 24px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.box {
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: 1px solid black;
+}
+.report {
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+.box .report:last-child {
+  border-bottom: none;
+}
+.head {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 350px;
+  padding-right: 40px;
+}
+.content {
+  flex: 1;
+  width: 350px;
+  padding-right: 80px;
+}
+.buttons {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+}
+.block-btn {
+  margin-bottom: 5px;
+}
